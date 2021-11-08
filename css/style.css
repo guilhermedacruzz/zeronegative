@@ -26,3 +26,35 @@ body::-webkit-scrollbar-thumb {
     border: none;
 }
 
+.container,
+.container-fluid,
+.row {
+    padding: 0;
+    margin: 0;
+}
+
+header, .navbar {
+    background-color: transparent;
+}
+
+.navbar-brand {
+    color: #d3d3d3;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: clamp(2rem, 2.4vw, 3.2rem);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.nav-link {
+    margin: 0px 20px;
+    text-decoration: none;
+    color: #d3d3d3;
+    font-size: clamp(1rem, 1.1vw, 1.3rem);
+}
+
+.navbar-brand:hover,
+.nav-link:hover {
+    color: #feec04;
+}
+
