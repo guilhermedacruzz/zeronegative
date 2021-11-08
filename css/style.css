@@ -65,7 +65,11 @@ header, .navbar {
     border-right: none;
 }
 
-h3,
+h3 {
+    color: #fff;
+}
+
 p {
+    font-size: clamp(.8rem, 1.1vw, 1.3rem);
     color: #fff;
 }
