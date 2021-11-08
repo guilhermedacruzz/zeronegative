@@ -58,3 +58,9 @@ header, .navbar {
     color: #feec04;
 }
 
+.placard {
+    background-color: #ffffff77;
+    border: 2px solid #fff;
+    border-left: none;
+    border-right: none;
+}
