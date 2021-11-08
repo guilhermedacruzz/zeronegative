@@ -9,7 +9,7 @@
 }
 
 body {
-    background-color: #1C1931;
+    background-color: transparent;
 }
 
 body::-webkit-scrollbar {
@@ -59,17 +59,18 @@ header, .navbar {
 }
 
 .placard {
-    background-color: #ffffff77;
-    border: 2px solid #fff;
-    border-left: none;
-    border-right: none;
-}
-
-h3 {
-    color: #fff;
+    background-color:red;
 }
 
 p {
     font-size: clamp(.8rem, 1.1vw, 1.3rem);
-    color: #fff;
+}
+
+button {
+    color: gray;
+    background-color: #feec04;
+    border: none;
+    border-radius: 4px;
+    padding: 6px 18px;
+    margin: 5px;
 }
