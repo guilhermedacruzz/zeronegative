@@ -97,10 +97,6 @@ header, .navbar {
     background-color: var(--color-text);
 }
 
-p {
-    font-size: clamp(.8rem, 1.1vw, 1.3rem);
-}
-
 .emphasis {
     color: var(--color-secundary);
 }
@@ -110,9 +106,17 @@ p {
 }
 
 .title {
+    font-size: clamp(2rem, 2.4vw, 3rem);
     color: var(--color-text);
 }
 
 .text {
+    text-align: justify;
+    font-size: clamp(1rem, 1.1vw, 1.3rem);
     color: var(--color-text);
+}
+
+.row img {
+    margin: 10px 0px;
+    border-radius: 4px;
 }
