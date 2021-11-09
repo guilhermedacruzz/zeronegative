@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700,800,900&display=swap');
 
 :root {
-    --color-text: #0a0908;
-    --color-back: #f2f4f3;
-    --color-primary: #22333b;
-    --color-secundary: #a9927d;
-    --color-contrast: #5e503f;
+    --color-text: #252422;
+    --color-back: #fffcf2;
+    --color-primary: #403d39;
+    --color-secundary: #ccc5b9;
+    --color-contrast: #eb5e28;
 }
 
 * {
@@ -24,12 +24,11 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-    background: transparent; 
+    background: var(--color-primary); 
 }
 
 body::-webkit-scrollbar-thumb {
     background-color: #ffffff77; 
-    border-radius: 20px; 
     border: none;
 }
 
@@ -81,7 +80,7 @@ header, .navbar {
 }
 
 .placard a:hover {
-    color: var(--color-contrast);
+    color: var(--color-secundary);
 }
 
 .placard button {
@@ -98,11 +97,11 @@ header, .navbar {
 }
 
 .emphasis {
-    color: var(--color-secundary);
+    color: var(--color-contrast);
 }
 
 .about {
-    color: var(--color-contrast);
+    color: var(--color-secundary);
 }
 
 .title {
