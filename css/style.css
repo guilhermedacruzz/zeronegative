@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700,800,900&display=swap');
 
 :root {
-    --color-text: #463f3a;
-    --color-back: #ffffff;
-    --color-primary: #3c6e71;
-    --color-secundary: #d9d9d9;
-    --color-contrast: #feec04; 
+    --color-text: #0a0908;
+    --color-back: #f2f4f3;
+    --color-primary: #22333b;
+    --color-secundary: #a9927d;
+    --color-contrast: #5e503f;
 }
 
 * {
@@ -53,6 +53,11 @@ header, .navbar {
     letter-spacing: 2px;
 }
 
+.nav-data {
+    color: var(--color-primary);
+    font-size: clamp(.9rem, 1.05vw, 1.2rem);
+}
+
 .nav-link {
     margin: 0px 20px;
     text-decoration: none;
@@ -62,7 +67,8 @@ header, .navbar {
 
 .navbar-brand:hover,
 .nav-link:hover {
-    color: var(--color-primary);
+    text-decoration: underline;
+    color: var(--color-contrast); 
 }
 
 .placard {
@@ -96,5 +102,17 @@ p {
 }
 
 .emphasis {
-    color: var(--color-primary);
+    color: var(--color-secundary);
+}
+
+.about {
+    color: var(--color-contrast);
+}
+
+.title {
+    color: var(--color-text);
+}
+
+.text {
+    color: var(--color-text);
 }
