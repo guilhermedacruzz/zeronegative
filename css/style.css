@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700,800,900&display=swap');
 
+:root {
+    --color-text: #463f3a;
+    --color-back: #ffffff;
+    --color-primary: #3c6e71;
+    --color-secundary: #d9d9d9;
+    --color-contrast: #feec04; 
+}
 
 * {
     font-family: "Roboto", sans-serif;
@@ -9,7 +16,7 @@
 }
 
 body {
-    background-color: transparent;
+    background-color: var(--color-back);
 }
 
 body::-webkit-scrollbar {
@@ -38,7 +45,7 @@ header, .navbar {
 }
 
 .navbar-brand {
-    color: #d3d3d3;
+    color: var(--color-text);
     font-weight: 700;
     text-decoration: none;
     font-size: clamp(2rem, 2.4vw, 3.2rem);
@@ -49,28 +56,45 @@ header, .navbar {
 .nav-link {
     margin: 0px 20px;
     text-decoration: none;
-    color: #d3d3d3;
+    color: var(--color-text);
     font-size: clamp(1rem, 1.1vw, 1.3rem);
 }
 
 .navbar-brand:hover,
 .nav-link:hover {
-    color: #feec04;
+    color: var(--color-primary);
 }
 
 .placard {
-    background-color:red;
+    background-color: var(--color-primary);
+}
+
+.placard a {
+    padding: 15px 0px;
+    color: var(--color-back);
+}
+
+.placard a:hover {
+    color: var(--color-contrast);
+}
+
+.placard button {
+    color: var(--color-text);
+    background-color: var(--color-contrast);
+    border: none;
+    border-radius: 4px;
+    padding: 6px 18px;
+}
+
+.placard button:hover {
+    color: var(--color-contrast);
+    background-color: var(--color-text);
 }
 
 p {
     font-size: clamp(.8rem, 1.1vw, 1.3rem);
 }
 
-button {
-    color: gray;
-    background-color: #feec04;
-    border: none;
-    border-radius: 4px;
-    padding: 6px 18px;
-    margin: 5px;
+.emphasis {
+    color: var(--color-primary);
 }
