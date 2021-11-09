@@ -119,5 +119,6 @@ header, .navbar {
 .row iframe,
 .row img {
     margin: 10px 0px;
+    border: none;
     border-radius: 4px;
 }
