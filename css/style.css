@@ -121,6 +121,7 @@ header, .navbar {
     border-radius: 4px; 
 }
 
+.text,
 .large-image {
-    margin: 10px 0px;
+    margin: 7px 0px;
 }
