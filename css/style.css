@@ -115,9 +115,12 @@ header, .navbar {
     color: var(--color-text);
 }
 
-.row iframe,
-.row img {
-    margin: 10px 0px;
+.large-image,
+.small-image {
     border: none;
-    border-radius: 4px;
+    border-radius: 4px; 
+}
+
+.large-image {
+    margin: 10px 0px;
 }
