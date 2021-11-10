@@ -98,13 +98,21 @@ header, .navbar {
 }
 
 .link-dark{
-    color: var(--color-secundary);
+    color: var(--color-contrast);
 }
 
 .link-light:hover,
 .link-dark:hover {
-    color: var(--color-contrast);
     text-decoration: underline;
+    cursor: pointer;
+}
+
+.link-light:hover {
+    color: var(--color-contrast);
+}
+
+.link-dark:hover {
+    color: var(--color-secundary);
 }
 
 .emphasis {
