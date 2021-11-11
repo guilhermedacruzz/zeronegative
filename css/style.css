@@ -148,3 +148,11 @@ header, .navbar {
 .end-page {
     margin-top: 50px;
 }
+
+.list-group {
+    border-radius: 0;
+}
+
+.list-group-item {
+    background-color: transparent;
+}
