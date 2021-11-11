@@ -150,9 +150,12 @@ header, .navbar {
 }
 
 .list-group {
-    border-radius: 2px;
+    border-radius: 0px;
 }
 
 .list-group-item {
+    border: none;
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
     background-color: transparent;
 }
