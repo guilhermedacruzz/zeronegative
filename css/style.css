@@ -189,3 +189,9 @@ header, .navbar {
     font-weight: 600;
     padding: 13px 26px;
 }
+
+#slide-menu .carousel-caption a:hover {
+    color: #feec04;
+    text-decoration: underline;
+    border-color: #feec04;
+}
