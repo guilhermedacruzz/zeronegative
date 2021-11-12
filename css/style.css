@@ -164,3 +164,28 @@ header, .navbar {
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     background-color: transparent;
 }
+
+#slide-menu .carousel-inner, #slide-menu .carousel-item {
+    height: 80vh;
+}
+
+#slide-menu .carousel-inner, #slide-menu .carousel-item img{ 
+    height: 100%;   
+    object-fit: cover;
+}
+
+#slide-menu .carousel-caption {
+    top: 70%;
+}
+
+#slide-menu .carousel-caption a {
+    font-size: clamp(1rem, 1.1vw, 1.3rem);
+    color: #ffffff99;
+    background-color: #00081477;
+    text-decoration: none;
+    border: 2px solid #ffffff99;
+    border-radius: 8px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 13px 26px;
+}
