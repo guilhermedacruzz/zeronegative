@@ -146,6 +146,10 @@ header, .navbar {
     margin: 7px 0px;
 }
 
+.large-image {
+    min-height: 260px;
+}
+
 .small-image {
     min-height: 100px;
 }
