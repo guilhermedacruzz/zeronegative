@@ -61,7 +61,7 @@ header, .navbar {
     margin: 0px 10px;
     text-decoration: none;
     color: var(--color-text);
-    font-size: clamp(1rem, 1.1vw, 1.3rem);
+    font-size: clamp(.9rem, 1.05vw, 1.2rem);
 }
 
 .navbar-brand:hover,
