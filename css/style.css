@@ -168,3 +168,8 @@ header, .navbar {
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     background-color: transparent;
 }
+
+#fanart {
+    object-position: 40% 12%;
+    max-height: 700px;
+}
