@@ -2,7 +2,8 @@
 
 :root {
     --color-text: #000000;
-    --color-back: #f0eff4;
+    --color-background: #fff;
+    --color-background-secondary: #f8f8fa;
     --color-primary: #3d2645;
     --color-secundary: #832161;
     --color-contrast: #da4167;
@@ -16,7 +17,7 @@
 }
 
 body {
-    background-color: var(--color-back);
+    background-color: var(--color-background);
 }
 
 body::-webkit-scrollbar {
@@ -75,7 +76,7 @@ header, .navbar {
 }
 
 .button-light {
-    color: var(--color-back);
+    color: var(--color-background);
     background-color: var(--color-secundary);
     border: none;
     border-radius: 4px;
@@ -84,7 +85,7 @@ header, .navbar {
 
 .button-light:hover {
     color: var(--color-secundary);
-    background-color: var(--color-back);
+    background-color: var(--color-background);
 }
 
 .link-light,
@@ -94,7 +95,7 @@ header, .navbar {
 }
 
 .link-light {
-    color: var(--color-back);
+    color: var(--color-background);
 }
 
 .link-dark{
@@ -188,7 +189,7 @@ header, .navbar {
 }
 
 #saler .saler-text {
-    background-color: #fff;
+    background-color: var(--color-background-secondary)
 }
 
 .button-read-more {
