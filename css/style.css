@@ -156,7 +156,8 @@ header, .navbar {
 }
 
 .end-page {
-    margin-top: 50px;
+    padding-top: 50px;
+    background-color: var(--color-background-secondary);
 }
 
 .list-group {
