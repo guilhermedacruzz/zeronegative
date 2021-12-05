@@ -173,3 +173,30 @@ header, .navbar {
     object-position: 40% 12%;
     max-height: 700px;
 }
+
+#saler {
+    background-color: var(--color-primary);
+}
+
+#saler .col-xl-6{
+    margin: 0;
+    padding: 0;
+}
+
+#saler .saler-margin-image{
+    padding: 65px;
+}
+
+#saler .saler-text {
+    background-color: #fff;
+}
+
+.button-read-more {
+    background: transparent;
+    padding: 8px 25px;
+    border: none;
+}
+
+.inverter {
+    transform: scaleY(-1);
+}
